@@ -1,0 +1,202 @@
+.first {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+.container1 {
+  width: 85%;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 68px 0 50px 0;
+  img {
+    height: 38px;
+    width: 250px;
+  }
+  a.nav-link {
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+
+    color: #6d6d6d;
+    text-decoration: none;
+  }
+  a.nav-link:hover {
+    color: #0000ff;
+  }
+}
+.nameSections {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.designSection,
+.posmSection,
+.merchSection {
+  margin-right: 12px;
+}
+.designSection,
+.posmSection,
+.merchSection,
+.eventSection {
+  width: 22%;
+
+  .designText,
+  .posmText,
+  .merchText,
+  .eventText {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+    height: 420px;
+  }
+}
+
+// .designText {
+//   padding: 96% 30% 3% 0;
+// }
+// .posmText {
+//   padding: 96% 30% 3% 0;
+// }
+// .merchText {
+//   padding: 96% 30% 3% 0;
+// }
+// .eventText {
+//   padding: 96% 30% 3% 0;
+// }
+.designText,
+.posmText,
+.merchText,
+.eventText {
+  h1 {
+    font-family: "CodecPro-ExtraBold";
+    font-size: 55px;
+    line-height: 120%;
+    /* or 120px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    text-shadow: 0px 100px 80px rgba(200, 200, 200, 0.07),
+      0px 41.7776px 33.4221px rgba(200, 200, 200, 0.0503198),
+      0px 22.3363px 17.869px rgba(200, 200, 200, 0.0417275),
+      0px 12.5216px 10.0172px rgba(200, 200, 200, 0.035),
+      0px 6.6501px 5.32008px rgba(200, 200, 200, 0.0282725),
+      0px 2.76726px 2.21381px rgba(200, 200, 200, 0.0196802);
+  }
+  .link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    // align-items: center;
+    a.text {
+      font-family: "CodecPro-Bold";
+      font-size: 16px;
+      line-height: 120%;
+      text-decoration: none;
+      /* or 19px */
+
+      letter-spacing: 0.03em;
+
+      color: #f8f8f8;
+
+      opacity: 0.9;
+    }
+    a.arrow {
+      color: #f8f8f8;
+      font-size: 16px;
+
+      padding-left: 10px;
+      text-decoration: none;
+    }
+  }
+}
+// .designSection:hover,
+// .posmSection:hover,
+// .merchSection:hover,
+// .eventSection:hover {
+//   background: #0000ff;
+//   height: 370px;
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: flex-end;
+//   img {
+//     display: none;
+//   }
+//   .designText,
+//   .posmText,
+//   .merchText,
+//   .eventText {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-end;
+//     align-items: center;
+//     transform: rotate(-90deg);
+//   }
+// }
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.years {
+  p {
+    font-family: "Montserrat-Bold";
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+
+    color: #cecece;
+  }
+}
+.messenger {
+  display: flex;
+  flex-direction: row;
+  a.link {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #686868;
+    text-decoration: none;
+  }
+  a.link {
+    padding-right: 100px;
+  }
+  p.tel {
+    font-family: "Montserrat-Black";
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+
+    color: #cecece;
+  }
+}

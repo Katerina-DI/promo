@@ -11,6 +11,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: Montserrat-SemiBold;
+  font-display: auto;
+  src: local("Montserrat-SemiBold"), url(../fonts/Montserrat-SemiBold.ttf);
+  font-style: normal;
+}
+@font-face {
   font-family: Montserrat-Italic;
   font-display: auto;
   src: local("Montserrat-Italic"), url(../fonts/Montserrat-Italic.ttf);
@@ -20,5 +26,17 @@
   font-family: Montserrat-Regular;
   font-display: auto;
   src: local("Montserrat-Regular"), url(../fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: CodecPro-ExtraBold;
+  font-display: auto;
+  src: local("CodecProExtraBold"), url(../fonts/CodecPro-ExtraBold.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: CodecPro-Bold;
+  font-display: auto;
+  src: local("CodecProBold"), url(../fonts/CodecPro-Bold.ttf);
   font-style: normal;
 }

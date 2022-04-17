@@ -2,6 +2,10 @@
   background-color: #0000ff;
   height: 100vh;
 }
+.container1 {
+  width: 85%;
+  margin: 0 auto;
+}
 .logo {
   display: flex;
   flex-direction: column;
@@ -10,7 +14,7 @@
   a.text:hover,
   a.text:active,
   a.text {
-    font-family: "Montserrat-Bold";
+    font-family: "CodecPro-ExtraBold";
     font-size: 90px;
     line-height: 115%;
     display: flex;
