@@ -3,8 +3,7 @@
   height: 100vh;
 }
 .container1 {
-  width: 85%;
-  margin: 0 auto;
+  @extend %container;
 }
 .logo {
   display: flex;
