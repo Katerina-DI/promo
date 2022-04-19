@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        link(rel="stylesheet", href="./styles/main.css")
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p' crossorigin='anonymous')
+        title Document
+    body 
+        section.present
+            .container1
+                    .nav
+                        img(src="../img/logoblue.png", alt="")
+                        include ./navbar.html
+                    .link-back
+                        a.arrow(href="../firstPage.html")   &#8592
+                        a(href="../firstPage.html")   Вернуться назад 
+                    .presentation 
+                        h2 Презентбокс BC Fibre Clinix
+                        h5 клиент
+                        h4 Schwarzkopf Professional
+                        img(src="../img/book.png", alt="")
+                        h3 Решение
+                        p Разработали белую коробку с магнитным клапаном и ложементом для пяти ярких цветных бустеров BC Fibre Clinix. Дизайн основан на контрасте цветных флаконов и белой ненавязчивой коробки с матовой soft-touch ламинацией и прозрачным УФ-лаком, который, бликуя на свету, создает дополнительные эффекты.
+                        h3 Задача
+                        p Разработать презентационный бокс для торговых представителей Schwarzkopf Profwssional с бустерами Bonacure Fibre Clinix
+                        img.obook(src="../img/openBook.png", alt="")
+                        img.obook(src="../img/rightBook.png", alt="")
+                       
+                    .message__form 
+                        include ./form.pug    
+                     
+                    include ./footer.pug

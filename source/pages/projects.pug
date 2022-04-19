@@ -6,42 +6,77 @@ html(lang="en")
         link(rel="stylesheet", href="./styles/main.css")
         link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous')
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js' integrity='sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p' crossorigin='anonymous')
+        
         title Document
     body 
-        section.projects 
-            .container1
-                    .nav
-                        img(src="../img/logoblue.png", alt="")
-                        include ./navbar.html
-                    .link-back
-                        a.arrow(href="../firstPage.html")   &#8592
-                        a(href="../firstPage.html")   Вернуться назад 
-                    .presentation 
-                        h2 Презентбокс BC Fibre Clinix
-                        h5 клиент
-                        h4 Schwarzkopf Professional
-                        img(src="../img/book.png", alt="")
-                        h3 Решение
-                        p Разработали белую коробку с магнитным клапаном и ложементом для пяти ярких цветных бустеров BC Fibre Clinix. Дизайн основан на контрасте цветных флаконов и белой ненавязчивой коробки с матовой soft-touch ламинацией и прозрачным УФ-лаком, который, бликуя на свету, создает дополнительные эффекты.
-                        h3 Задача
-                        p Разработать презентационный бокс для торговых представителей Schwarzkopf Profwssional с бустерами Bonacure Fibre Clinix
-                        img.obook(src="../img/openBook.png", alt="")
-                        img.obook(src="../img/rightBook.png", alt="")
-                        h1 Сделать будущее бренда — успешным
-                    .message__form 
-         
-                        input(type="text" placeholder="Имя")  
-                        input(type="text" placeholder="Email") 
-                        input(type="text" placeholder="Телефон")
-                        textarea(name="Расскажите о своем проекте" cols="20" rows="2" placeholder="Расскажите о своем проекте")
-                        p Заполняя форму, вы соглашаетесь на обработку персональных данных (ст.9 ФЗ от 27.07.2006 №152-ФЗ «О персональных данных»)
-                        button.btn.btn-primary Отправить запрос   
-                        
-            .line     
-                        
-
-
-
-
-
+    section.project-design
+        .container1
+            .nav
+                img(src="../img/logoblue.png", alt="")
+                include ./navbar.html
+            .projects 
+                .name
+                    a(href="../projects.html")  Design
+                    a(href="#")  POSM
+                    a(href="#")  Merch
+                    a(href="#")  Event
+                .about-project
+                    p Мы верим в важность продвижения творчества вверх по течению и поиска способов вовлечь экспериментирование в процесс, не испортив того, что уже работает. 
+                    p Чтобы достичь этого, мы тестируем решения по мере того, как развиваем понимание, и используем наши глубокие знания о культуре и поведении, чтобы убедиться, что мы твердо стоим на своих идеях, но не слишком дорожим результатами. 
+                    p Что это значит для вас? Работа, которая отвечает вашим бизнес – целям при этом ставя людей в центр.
+                    .links 
+                        .server 
+                            .server-img
+                                img(src="./img/server.png", alt="")
+                            a(href="#") Сервер для хранения рабочих материалов
+                        .clients
+                            .client-img
+                                img(src="./img/clients.png", alt="")
+                            a(href="#") Клиентский доступ в систему управления задач
+                    .products 
+                        .item 
+                            a(href="../presentation.html")  
+                                img(src="./img/BC.png", alt="")
+                            a(href="#") Презентбокс BC Fibre Clinix
+                            p 2021
+                        .item 
+                            a(href="#")
+                                img(src="./img/Indola.png", alt="") 
+                            a(href="#") Учебное пособие и рабочая тетрадь INDOLA
+                            p 2021
+                        .item 
+                            a(href="#")
+                                img(src="./img/calend.png", alt="") 
+                            a(href="#") Календарь Роснефть Битум
+                            p 2021
+                        .item 
+                            a(href="#")
+                                img(src="./img/corex.png", alt="") 
+                            a(href="#") Набор сувениров Corex
+                            p 2020
+                        .item 
+                            a(href="#")
+                                img(src="./img/CityPark.png", alt="") 
+                            a(href="#") Конверты City Park
+                            p 2020
+                        .item 
+                            a(href="#")
+                                img(src="./img/Megaphone.png", alt="") 
+                            a(href="#") Дженга Мегафон
+                            p 2020
+                        .item 
+                            a(href="#")
+                                img(src="./img/raincoat.png", alt="") 
+                            a(href="#") Дождевик Вертолёты России
+                            p 2020
+                        .item 
+                            a(href="#")
+                                img(src="./img/Folder.png", alt="") 
+                            a(href="#") Папка City Park
+                            p 2020
+                    .btn1 
+                        button 
+                            a(href="#")  Посмотреть еще    
+                    .form 
+                        include ./form.pug
             include ./footer.pug
